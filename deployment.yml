@@ -21,3 +21,5 @@ spec:
         name: nginx
         ports:
         - containerPort: 80
+      serviceAccountName: default
+      
