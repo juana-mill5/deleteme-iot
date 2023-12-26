@@ -24,7 +24,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nginx:stable
+      - image: nginx:latest
         name: nginx
         ports:
         - containerPort: 80
